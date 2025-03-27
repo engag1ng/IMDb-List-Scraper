@@ -13,7 +13,7 @@ def scrapeList(link):
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
 
     driver = webdriver.Chrome(options=options)
-    driver.get("https://www.imdb.com/user/ur159205241/ratings/")
+    driver.get(link)
 
     try:
         cookie_btn = WebDriverWait(driver, 5).until(
