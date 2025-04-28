@@ -6,6 +6,10 @@ The script uses [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) for we
 > [!NOTE]
 > This only works on **public** lists. If a list is not public an empty list (array) will be returned.
 
+Even though this only 40 lines of code and very simple I couldn't find anything that did something similar online. I hope it helps. Thank you, and enjoy!
+
+**⭐Please star this repository!**
+
 ## Installation
 1. Download the script: `$ get https://github.com/engag1ng/IMDb-List-Scraper/blob/main/scrape_list.py`
 2. Install dependencies with pip: `$ pip install beautifulsoup4 selenium`
@@ -14,4 +18,5 @@ The script uses [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) for we
 ## Usage
 Use the function using the following command: `scrapeList(<link>)`
 
-Even though this only 40 lines of code and very simple I couldn't find anything that did something similar online. I hope it helps. Thank you, and enjoy!
+## Contributing
+This is a very simple repository. It's simple but it works. If you have any feature suggestions please open an **issue**. For improvements please open a **pull request**.
